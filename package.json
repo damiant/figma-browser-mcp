@@ -1,0 +1,24 @@
+{
+  "name": "figma-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node ./build/build.js",
+    "start": "node ./build/serve.js",
+    "analyze": "node ./build/analyze.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "0.25.4",
+    "esbuild-plugin-tsc": "0.5.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@figma/rest-api-spec": "0.24.0",
+    "js-yaml": "^4.1.0",
+    "yaml": "^2.8.0"
+  }
+}
