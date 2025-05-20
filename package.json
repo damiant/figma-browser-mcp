@@ -18,7 +18,6 @@
   },
   "dependencies": {
     "@figma/rest-api-spec": "0.24.0",
-    "js-yaml": "^4.1.0",
     "yaml": "^2.8.0"
   }
 }
