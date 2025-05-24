@@ -5,11 +5,13 @@
   "scripts": {
     "build": "node ./build/build.js",
     "start": "node ./build/serve.js",
-    "analyze": "node ./build/analyze.js"
+    "analyze": "node ./build/analyze.js",
+    "prepublish": "npm run build",
+    "publish": "npm publish --access public"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Damian Tarnawsky",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
     "esbuild": "0.25.4",
